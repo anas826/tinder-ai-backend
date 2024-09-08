@@ -46,7 +46,6 @@ public class ProfileCreationService {
                 userProfileProperties.get("imageUrl"),
                 userProfileProperties.get("myersBriggsPersonalityType")
         );
-        System.out.println(userProfileProperties);
         profileRepository.save(profile);
 
     }
