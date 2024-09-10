@@ -39,10 +39,6 @@ public class TinderAiBackendApplication implements CommandLineRunner {
 		matchRepository.deleteAll();
 		profileRepository.deleteAll();
 		profileCreationService.saveProfilesToDB();
-
-		profileRepository.findAll().forEach(System.out::println);
-
-
 	}
 
 }
